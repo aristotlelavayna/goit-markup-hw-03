@@ -74,9 +74,11 @@ body {
     font-family: "Roboto";
 }
 
+/* order-service class start */
 .order-service {
     background-color: var(--NAVY-BLUE);
-    margin: 188px 472px 292px;
+    text-align: center; 
+    margin-bottom: 120px;
 }
 
 h1 {
@@ -90,6 +92,7 @@ h1 {
     line-height: 60px; 
     letter-spacing: 1.12px;
 }
+
 .button {
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
@@ -110,9 +113,26 @@ h1 {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--WHITE)
 }
+/* end of order-service class */ 
 
+/* solutions-list start class */
 h3 {
     color: var(--NAVY-BLUE);
+}
+
+.solutions-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+}
+/* end of solutions-list class */
+
+/* works-list start */
+.works-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+    justify-content: center;
 }
 
 .works {
@@ -140,17 +160,40 @@ h2 {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
+/* end of works-list */
 
+.team-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.team-list li {
+    text-align: center;
+    
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    margin-bottom: 120px;
+}
+
+
+/* main-footer class start */
 .main-footer {
     background-color: var(--NAVY-BLUE);
+    padding-top: 101.5px;
+    padding-bottom: 100px;
+    padding-left: 156px;
 }
 
 .logo-footer span {
     color: var(--IRIS);
 }
+
 .logo-footer {
     color: var(--CLOUD);
     text-decoration: none;
+    
 }
 .footer {
     color: var(--CLOUD, #F4F4FD);
@@ -162,3 +205,4 @@ h2 {
     line-height: 24px; 
     letter-spacing: 0.32px;
 }
+/* end of main-footer class */
