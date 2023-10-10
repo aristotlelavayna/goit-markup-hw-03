@@ -239,6 +239,9 @@ h2 {
     display: flex;
     gap: 24px;
     justify-content: center;
+    margin-top: 96px;
+    margin-bottom: 72px;
+
 }
 
 .filter-buttons li {
@@ -260,6 +263,7 @@ h2 {
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
+    border: none;
 }
 
 .filter-all {
@@ -277,12 +281,12 @@ h2 {
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
+    border: none;
 }
 
     
 /* project-cards-section */
-.project-cards-list {
+.cards-list {
+    gap: 24px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
 }
