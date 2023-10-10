@@ -11,10 +11,14 @@
 .container {
     width: 1158px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .d-flex {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -60,6 +64,7 @@ text-transform: uppercase;
 
 .menu-links{
     display: flex;
+    gap: 40px;
 }
 
 li {
@@ -85,6 +90,7 @@ li {
 
 .contact-details {
     display: flex;
+    gap: 40px;
 }
 
 body {
