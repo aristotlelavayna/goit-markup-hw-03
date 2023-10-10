@@ -10,6 +10,11 @@
 
 .container {
     width: 1158px;
+    display: flex;
+}
+
+.d-flex {
+    display: flex;
 }
 
 .logo {
@@ -53,6 +58,10 @@ text-transform: uppercase;
     color: var(--OCEAN);
 }
 
+.menu-links{
+    display: flex;
+}
+
 li {
     list-style-type: none;
 }
@@ -72,6 +81,10 @@ li {
 .contact-details a:hover,
 .contact-details a:focus {
     color: var(--OCEAN);
+}
+
+.contact-details {
+    display: flex;
 }
 
 body {
