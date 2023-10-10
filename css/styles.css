@@ -231,3 +231,15 @@ h2 {
     letter-spacing: 0.32px;
 }
 /* end of main-footer class */
+
+/* PORTFOLIO PAGE!!! */
+
+/* filter-button-section*/
+
+
+/* project-cards-section */
+.project-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
