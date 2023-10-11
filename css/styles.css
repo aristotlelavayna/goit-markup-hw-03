@@ -209,6 +209,7 @@ h2 {
     padding-top: 101.5px;
     padding-bottom: 100px;
     padding-left: 156px;
+    margin-top: 120px;
 }
 
 .logo-footer span {
@@ -234,13 +235,16 @@ h2 {
 
 /* PORTFOLIO PAGE!!! */
 
-/* filter-buttons*/
+/* filter-buttons start*/
 .filter-list {
     text-align: center;
     margin-top: 96px;
     margin-bottom: 72px;
     margin-left: 30px;
     margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
 .filter {
@@ -253,7 +257,7 @@ h2 {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.64px;   
 }
 
@@ -274,7 +278,7 @@ h2 {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px; 
     letter-spacing: 0.64px;    
 }
 
@@ -284,11 +288,15 @@ h2 {
     background: var(--OCEAN, #404BBF);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10); 
 }
+/* end of filter buttons */
 
+/* project cards start */
 .card-list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;
 }
 
 .card-list li img {
@@ -298,3 +306,10 @@ h2 {
 .card-list li {
     width: 30%;
 }
+
+.caption {
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    padding: 0px 16px;
+}
+/* end of project cards */
