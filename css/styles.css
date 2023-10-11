@@ -320,5 +320,6 @@ h2 {
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
     padding: 0px 16px;
+    align-self: stretch;
 }
 /* end of project cards */
