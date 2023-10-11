@@ -23,25 +23,25 @@
 
 .logo {
     color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; 
-letter-spacing: 0.54px;
-text-transform: uppercase;
-text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .logo span {
     color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; 
-letter-spacing: 0.54px;
-text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .menu-links a {
@@ -285,15 +285,16 @@ h2 {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10); 
 }
 
-.projects ul {
+.card-list {
     width: 100%;
+    display: flex;
     flex-wrap: wrap;
 }
 
-.projects li img {
+.card-list li img {
     width: 100%;
 }
 
-.projects li {
+.card-list li {
     width: 30%;
 }
