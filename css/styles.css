@@ -284,3 +284,16 @@ h2 {
     background: var(--OCEAN, #404BBF);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10); 
 }
+
+.projects ul {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.projects li img {
+    width: 100%;
+}
+
+.projects li {
+    width: 30%;
+}
