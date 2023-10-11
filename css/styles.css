@@ -297,6 +297,7 @@ h2 {
     flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 24px;
+    padding-left: 156px;
 }
 
 .card-list li img {
