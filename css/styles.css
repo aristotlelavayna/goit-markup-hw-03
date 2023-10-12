@@ -252,6 +252,10 @@ h2 {
     text-align: center;
     padding: 12px 24px;
 
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
+
     /* Button Text */
     font-family: Roboto;
     font-size: 16px;
@@ -263,31 +267,15 @@ h2 {
 
 .filter:hover,
 .filter:focus {
-    border-radius: 4px;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--CLOUD, #F4F4FD);
-}
-
-.active {
     color: var(--WHITE, #FFF);
     text-align: center;
     padding: 12px 24px;
 
-    /* Button Text */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; 
-    letter-spacing: 0.64px;    
-}
-
-.active:hover,
-.active:focus {
     border-radius: 4px;
     background: var(--OCEAN, #404BBF);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10); 
 }
+
 /* end of filter buttons */
 
 /* project cards start */
